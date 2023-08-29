@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fargo</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icons" href="" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <div class="nav container">
+            <a href="../Index.html" class="logo">
+                Ed<span>Flix</span>
+            </a>
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Buscar">
+                <i class='bx bx-search'></i>
+            </div>
+            <a href="#" class="user">
+                <img src="../img/avatar.jpeg" alt="" class="user-img">
+            </a>
+            <div class="navbar">
+                <a href="../Index.html" class="nav-link nav-active">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="nav-link-tittle">Inicio</span>
+                </a>
+                <a href="#favorito" class="nav-link">
+                    <i class='bx bx-heart'></i>
+                    <span class="nav-link-tittle">Favoritos</span>
+                </a>
+                <a href="#series" class="nav-link">
+                    <i class='bx bx-library'></i>
+                    <span class="nav-link-tittle">Series</span>
+                </a>
+                <a href="#movies" class="nav-link">
+                    <i class='bx bx-tv'></i>
+                    <span class="nav-link-tittle">Peliculas</span>
+                </a>
+                <a href="#explore" class="nav-link">
+                    <i class='bx bx-compass'></i>
+                    <span class="nav-link-tittle">Explore</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Play Movie Container -->
+    <div class="play-container container">
+        <img src="../img/bg/fargobg.jpg" alt="" class="play-img">
+        <div class="play-text">
+            <h2>Fargo</h2>
+            <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <div class="tags">
+                <span>Policiaco</span>
+                <span>Drama</span>
+                <span>Acción</span>
+            </div>
+            <a href="#" class="watch-btn">
+                <i class="bx bx-right-arrow"></i>
+                <span>Trailer</span>
+            </a>
+        </div>
+        <i class="bx bx-right-arrow play-movie"></i>
+        <div class="video-container">
+            <div class="video-box">
+                <video id="myvideo" src="../video/Fargotrailer.mp4" controls></video>
+                <i class="bx bx-x close-video"></i>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; Eduardo Villamayor</p>
+    </div>
+
+  <script src="../js/swiperjs.js"></script>  
+  <script src="../js/main.js"></script>  
+</body>
+</html>
