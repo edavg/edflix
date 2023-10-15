@@ -18,32 +18,33 @@
                 Ed<span>Flix</span>
             </a>
             <div class="search-box">
-                <input type="search" name="" id="search-input" placeholder="Buscar">
+                <input type="text" id="search-input" placeholder="Buscar" autocomplete="off">
                 <i class='bx bx-search'></i>
-            </div>
-            <a href="#" class="user">
+                <div class="result-box">
+                  <ul></ul>
+                </div>
+              </div>
+              <a href="#" class="user">
                 <img src="img/avatar.jpeg" alt="" class="user-img">
             </a>
+              </div>
             <div class="navbar">
                 <a href="#home" class="nav-link nav-active">
                     <i class='bx bx-home-alt'></i>
                     <span class="nav-link-tittle">Inicio</span>
                 </a>
                 <a href="#favorito" class="nav-link">
-                    <i class='bx bx-heart'></i>
-                    <span class="nav-link-tittle">Favoritos</span>
+                    <i class='bx bx-tv'></i>
+                    <span class="nav-link-tittle">Peliculas</span>
                 </a>
                 <a href="#series" class="nav-link">
                     <i class='bx bx-library'></i>
                     <span class="nav-link-tittle">Series</span>
                 </a>
-                <a href="#movies" class="nav-link">
-                    <i class='bx bx-tv'></i>
-                    <span class="nav-link-tittle">Peliculas</span>
-                </a>
+
                 <a href="#explore" class="nav-link">
-                    <i class='bx bx-compass'></i>
-                    <span class="nav-link-tittle">Explore</span>
+                    <i class='bx bxs-user-rectangle'></i>
+                    <span class="nav-link-tittle">Sobre mí</span>
                 </a>
             </div>
         </div>
@@ -61,7 +62,7 @@
     </section>
     <section class="favorito container" id="favorito">
         <div class="heading">
-            <h2 class="heading-tittle">Favoritos</h2>
+            <h2 class="heading-tittle">Películas</h2>
             <div class="swiper-btn">
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
@@ -257,13 +258,12 @@
             
         </div>
     </section>
-    <div class="next-page">
-        <a href="#" class="next-btn">Next Page</a>
-    </div>
+    
     <div class="copyright">
         <p>&copy; Eduardo Villamayor</p>
     </div>
     <script src="js/swiperjs.js"></script>
-  <script src="js/main.js"></script>  
+  <script src="js/main.js"></script> 
+  <script src="js/search.js"></script> 
 </body>
 </html>
